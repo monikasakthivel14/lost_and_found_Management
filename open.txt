@@ -1,0 +1,3 @@
+del *.class
+javac --module-path "C:\Users\monik\OneDrive\Documents\java fx download libs\javafx-sdk-21.0.12\lib" --add-modules javafx.controls -cp "lib\mysql-connector-j-26.7.0.jar" Main.java Item.java DatabaseConnection.java
+java --module-path "C:\Users\monik\OneDrive\Documents\java fx download libs\javafx-sdk-21.0.12\lib" --add-modules javafx.controls -cp ".;lib\mysql-connector-j-26.7.0.jar" Main
